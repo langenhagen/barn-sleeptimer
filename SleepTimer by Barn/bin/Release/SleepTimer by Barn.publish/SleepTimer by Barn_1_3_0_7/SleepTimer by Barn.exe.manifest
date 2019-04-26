@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="SleepTimer by Barn.exe" version="1.3.0.7" publicKeyToken="c75d1015b4068b0c" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="clock.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SleepTimer by Barn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SleepTimer by Barn.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SleepTimer by Barn.exe" size="520192">
+      <assemblyIdentity name="SleepTimer by Barn" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>uHTYvvxSRs4WWZfVsu8os/gx7jU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="clock.ico" size="25214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rHKvzlYzvDnEc8ygulhnWqe6xes=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SleepTimer by Barn.exe.config" size="1413">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wGie5H0OB2eW3Orjkoyw84BIjPg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ANDI\Andreas_jr" issuerKeyHash="15dd75e976699375d5d8d126bdad4114ddc975f7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>atxY/SZum1N7YUAVaCKl2Keo15Q=</DigestValue></Reference></SignedInfo><SignatureValue>Vu45ygD+3UGGKJoAgJYhfnKSyRufeKcjP2ivin1GS/j4MtguldE17c12G7EQd6FiT/n8QneZb+ymNtfPWfEoP/ktlScvXY8Y1m5Biy+lhFg+JhhoyipLwgvQrOrt0zcl2OgXW3NavpWFZHnEv8CfDfrjkCE3RTmMeeug3iz30PI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rpUpysFvSi88V9cTWsyPhUbty+Lwpl+v/CfeyQR836LsLri/bQNIy93IdBSnMKItq3kFjqje1lZOFETdvCN771Ld7Ryw+s0l0j+f3AoLf9wPpUEWYVr3n+pMo0KfQHG8i+vzcIQZDSja172/pedejj5dKLPRBl12wUBlkI+MaK8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="94d7a8a7d8a522681540617b539b6e26fd58dc6a" Description="" Url=""><as:assemblyIdentity name="SleepTimer by Barn.exe" version="1.3.0.7" publicKeyToken="c75d1015b4068b0c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANDI\Andreas_jr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ksdF//A5DnlNAKeigTEPhN/3VMc=</DigestValue></Reference></SignedInfo><SignatureValue>ZkGUQsHifBJ02dEknvWJExznK02lksV8gaRmAQ4SKes0lKvSBmOPRJXEkBtFgnjBjDFZjgLfBLv4hLaFrfwqtU6ueWgMGLInF7LF6NW7etO3xu0neIw+Qulmyu0MnWrSYW7xmdMGcgDJbMmlKEr2Uc8xpKnEFxxxTPLqlEIWwrs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rpUpysFvSi88V9cTWsyPhUbty+Lwpl+v/CfeyQR836LsLri/bQNIy93IdBSnMKItq3kFjqje1lZOFETdvCN771Ld7Ryw+s0l0j+f3AoLf9wPpUEWYVr3n+pMo0KfQHG8i+vzcIQZDSja172/pedejj5dKLPRBl12wUBlkI+MaK8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATqgAwIBAgIQhMzwwwqx34VJQD7pKw/pBjAJBgUrDgMCHQUAMCkxJzAlBgNVBAMeHgBBAE4ARABJAFwAQQBuAGQAcgBlAGEAcwBfAGoAcjAeFw0wNzAxMjcxNzQzMDFaFw0wODAxMjcyMzQzMDFaMCkxJzAlBgNVBAMeHgBBAE4ARABJAFwAQQBuAGQAcgBlAGEAcwBfAGoAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArpUpysFvSi88V9cTWsyPhUbty+Lwpl+v/CfeyQR836LsLri/bQNIy93IdBSnMKItq3kFjqje1lZOFETdvCN771Ld7Ryw+s0l0j+f3AoLf9wPpUEWYVr3n+pMo0KfQHG8i+vzcIQZDSja172/pedejj5dKLPRBl12wUBlkI+MaK8CAwEAATAJBgUrDgMCHQUAA4GBAIZkrhVEnB4kxS37dN/0RnRZbyT2NHr9oawQqZCOrR9hBmF5Ut6sF66mxREnN0R5GEKtrTygxvn/5wfDDi1a2AW5ji9zZwSDic54c3Ea8XQzi+ZlJFSxallHFlbbGVZDjMWf1NN59JjLNfDAA+F0zR20DB1kDzCa8i6QpDjlhlLs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
